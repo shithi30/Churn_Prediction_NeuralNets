@@ -17,7 +17,7 @@ TallyKhata applied supervised classification (from its historical data) to tell 
 - Feed-forward NNs (input + ReLU + Softmax) Xavier-initialized
 - Cross-entropy loss fuction Adam-optimized in mini-batches
 
-Features were often tested inferentially for significance:
+Features were often tested inferentially for significance. Distribution of OP labels were also verified against training data, to make sure proper trainig took place.
 
 <img width="640" alt="fl1" src="https://github.com/shithi30/Churn_Prediction_NeuralNets/assets/43873081/b7bb1488-64f9-4b36-a9f7-0083979aa947">
 
@@ -27,4 +27,4 @@ The models were trained to answer BI questions like:
 - Will a merchant's activity decline by >=30% soon?
 - Will the merchant soon be investing lesser time on TK?
 
-NN models developed at TK have answered these questions with 80% to 90% accuracy. After prediction, results were written on warehouse-tables, and business decisions were executed duly based on the output. Since merchants enter their financial data (cash/credit sales, returns, cashbox txns) in TK-app, the NNs also helped TallyKhata Digital Credit (TKDC) team to make decisions on merchants' credit-worthiness.
+NN models developed at TK have answered these questions with a highest ~89% accuracy. After prediction, results were written on warehouse-tables, and business decisions were executed duly based on the output. Since merchants enter their financial data (cash/credit sales, returns, cashbox txns) in TK-app, the NNs also helped TallyKhata Digital Credit (TKDC) team to make decisions on merchants' credit-worthiness.
