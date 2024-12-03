@@ -1,7 +1,9 @@
 
 ## Neural Nets for Detecting Potential Churns and Power Users
 
-*Note: Only models published, due to org's governance policy*
+**Tech Stack:** Language - `Python` , ML Libraries - `TensorFlow, h5py` , Database - `Postgres` , Python Wrappers - `SQL Alchemy, Psycopg2`
+
+*<strong>Note</strong>: Only models published, due to org's governance policy*
 
 ### Dataset
 TallyKhata applied supervised classification (from its historical data) to tell if a user — after registering and passing some days on the platform — would churn or turn into a regular active user (RAU, also PU as some orgs would put it). To accomplish this, I prepared a training dataset containing the following:
