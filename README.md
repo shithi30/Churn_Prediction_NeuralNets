@@ -1,4 +1,3 @@
-
 ## Neural Nets for Detecting Potential Churns and Power Users
 
 **Tech Stack:** Language - `Python` , ML Libraries - `TensorFlow, h5py` , Database - `Postgres` , Python Wrappers - `SQL Alchemy, Psycopg2`
